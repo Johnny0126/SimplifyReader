@@ -25,9 +25,9 @@ import android.view.animation.Animation;
  * Description:
  */
 public interface SplashView {
-
+    //图像背景动画
     void animateBackgroundImage(Animation animation);
-
+    //初始化视图
     void initializeViews(String versionName,String copyright,int backgroundResId);
 
     void initializeUmengConfig();
