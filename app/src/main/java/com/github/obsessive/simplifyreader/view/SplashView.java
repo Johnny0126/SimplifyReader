@@ -29,8 +29,8 @@ public interface SplashView {
     void animateBackgroundImage(Animation animation);
     //初始化视图
     void initializeViews(String versionName,String copyright,int backgroundResId);
-
+    //初始化配置
     void initializeUmengConfig();
-
+    //转向主页
     void navigateToHomePage();
 }
